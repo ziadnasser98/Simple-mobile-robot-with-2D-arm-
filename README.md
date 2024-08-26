@@ -52,6 +52,7 @@ source install/setup.bash
    points: [ {positions: {0.0, 0.0}} ]}'
    ```
 3. To make the robot reach a desired goal:
-   ```
-   ros2 launch my_robot_pringub potential_field_controller.launch.py goal_x:=4.0 goal_y:=2.0
-   ```
+
+```   
+ros2 launch my_robot_bringup potential_field_controller.launch.py goal_x:=4.0 goal_y:=2.0
+```
